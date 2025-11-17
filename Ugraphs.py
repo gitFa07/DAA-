@@ -1,8 +1,8 @@
 
 from collections import deque
 
-class UndirectedGraph: # constructor of this class so we can make objects of this class, have multiple graphs
-    def __init__(self):
+class UndirectedGraph: 
+    def __init__(self): # constructor of this class so we can make objects of this class, have multiple graphs
         self.graph = {} # Adjacency list, disctionary {"": ["", "", ...]}
 
     def add_vertex(self, v):
